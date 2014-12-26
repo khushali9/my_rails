@@ -159,3 +159,31 @@ Migrating to CreateCategories (20141226220008)
   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141226220008"]]
   [1m[35m (1.0ms)[0m  commit transaction
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Art"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/e/eb/144-la_fuente_de_Monforte_V.jpg"], ["created_at", "2014-12-26 22:19:10.101519"], ["updated_at", "2014-12-26 22:19:10.101519"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Home & Living"], ["thumburl", "http://ihomedecorsideas.com/wp-content/uploads/2014/04/diy_network_homemade_coat_rack_.jpg"], ["created_at", "2014-12-26 22:19:10.107014"], ["updated_at", "2014-12-26 22:19:10.107014"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jewelry"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/f/ff/Midyat_Silver_Jewelry_1310103_Nevit.jpg"], ["created_at", "2014-12-26 22:19:10.109934"], ["updated_at", "2014-12-26 22:19:10.109934"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Women"], ["thumburl", "https://c1.staticflickr.com/9/8255/8660920433_57a184d9d1_z.jpg"], ["created_at", "2014-12-26 22:19:10.112397"], ["updated_at", "2014-12-26 22:19:10.112397"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Men"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/d/d5/Fullbrogue_(Grenson).jpg"], ["created_at", "2014-12-26 22:19:10.114871"], ["updated_at", "2014-12-26 22:19:10.114871"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Kids"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/e/e0/Artist%27s_Paint_Brushes_Adapted_With_Photoshop._Surrey_UK.jpg"], ["created_at", "2014-12-26 22:19:10.118297"], ["updated_at", "2014-12-26 22:19:10.118297"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vintage"], ["thumburl", "https://c2.staticflickr.com/8/7402/9426557291_139134efaa_z.jpg"], ["created_at", "2014-12-26 22:19:10.122519"], ["updated_at", "2014-12-26 22:19:10.122519"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Weddings"], ["thumburl", "http://hostingessence.com/wp-content/uploads/2012/04/green-wedding.jpg"], ["created_at", "2014-12-26 22:19:10.126419"], ["updated_at", "2014-12-26 22:19:10.126419"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Craft Supplies"], ["thumburl", "http://bit.ly/1w1uPow"], ["created_at", "2014-12-26 22:19:10.130803"], ["updated_at", "2014-12-26 22:19:10.130803"]]
+  [1m[35m (1.2ms)[0m  commit transaction
