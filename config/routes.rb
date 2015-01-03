@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'products/edit'
 
-  get 'products/delete'
+  #get 'products/delete'
 
   get 'categories/index'
 
