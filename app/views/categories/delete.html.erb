@@ -1,2 +1,13 @@
-<h1>Categories#delete</h1>
-<p>Find me in app/views/categories/delete.html.erb</p>
+<p>
+  <strong>Name:</strong>
+  <%= @category.name %>
+</p>
+
+<p>
+  <strong>Thumburl:</strong>
+  <%= @category.thumburl %>
+</p>
+
+<%= link_to "Delete", categories_delete_path(:id => @category.id) %> |
+<%= link_to 'Edit', edit_category_path(@category) %> |
+<%= link_to 'Back', categories_path %>
