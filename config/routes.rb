@@ -69,9 +69,9 @@ Rails.application.routes.draw do
     get 'pages/render_demo'
     get 'pages/redirect_demo'
 
-     #get '/' => 'pages#home'
+    # get '/' => 'pages#home'
 
-  #resources :categories
+  resources :categories
   #get 'categories/:id/delete' => 'categories#delete', :as => :categories_delete
 
 
