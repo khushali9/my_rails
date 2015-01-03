@@ -435,3 +435,112 @@ DEPRECATION WARNING: `#timestamp` was called without specifying an option for `n
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150103054147"]]
   [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Art"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/e/eb/144-la_fuente_de_Monforte_V.jpg"], ["created_at", "2015-01-03 05:52:55.935339"], ["updated_at", "2015-01-03 05:52:55.935339"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Home & Living"], ["thumburl", "http://ihomedecorsideas.com/wp-content/uploads/2014/04/diy_network_homemade_coat_rack_.jpg"], ["created_at", "2015-01-03 05:52:55.940630"], ["updated_at", "2015-01-03 05:52:55.940630"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jewelry"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/f/ff/Midyat_Silver_Jewelry_1310103_Nevit.jpg"], ["created_at", "2015-01-03 05:52:55.943184"], ["updated_at", "2015-01-03 05:52:55.943184"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Women"], ["thumburl", "https://c1.staticflickr.com/9/8255/8660920433_57a184d9d1_z.jpg"], ["created_at", "2015-01-03 05:52:55.945629"], ["updated_at", "2015-01-03 05:52:55.945629"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Men"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/d/d5/Fullbrogue_(Grenson).jpg"], ["created_at", "2015-01-03 05:52:55.948010"], ["updated_at", "2015-01-03 05:52:55.948010"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Kids"], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/e/e0/Artist%27s_Paint_Brushes_Adapted_With_Photoshop._Surrey_UK.jpg"], ["created_at", "2015-01-03 05:52:55.951012"], ["updated_at", "2015-01-03 05:52:55.951012"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vintage"], ["thumburl", "https://c2.staticflickr.com/8/7402/9426557291_139134efaa_z.jpg"], ["created_at", "2015-01-03 05:52:55.953550"], ["updated_at", "2015-01-03 05:52:55.953550"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Weddings"], ["thumburl", "http://hostingessence.com/wp-content/uploads/2012/04/green-wedding.jpg"], ["created_at", "2015-01-03 05:52:55.955949"], ["updated_at", "2015-01-03 05:52:55.955949"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "categories" ("name", "thumburl", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Craft Supplies"], ["thumburl", "http://bit.ly/1w1uPow"], ["created_at", "2015-01-03 05:52:55.958430"], ["updated_at", "2015-01-03 05:52:55.958430"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Russian Acrylic"], ["description", "Acrylic on Canvas"], ["price", 59.0], ["thumburl", "http://bit.ly/1nDkJZw"], ["category_id", 10], ["created_at", "2015-01-03 05:52:55.971520"], ["updated_at", "2015-01-03 05:52:55.971520"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Spanish Canvas Painting"], ["description", "La Fuente de Monteforte Painting Acrylic"], ["price", 79.0], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/e/eb/144-la_fuente_de_Monforte_V.jpg"], ["category_id", 10], ["created_at", "2015-01-03 05:52:55.974618"], ["updated_at", "2015-01-03 05:52:55.974618"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "French Acrylics & Pastel Canvas"], ["description", "Jeanne d'Arc Arrivant a l'ile Bouchard"], ["price", 122.0], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/3/36/2004_Yuri-Yudaev_Before-the-City-Gate_Acrylic-on-canvas_40x40cm.jpg"], ["category_id", 10], ["created_at", "2015-01-03 05:52:55.977455"], ["updated_at", "2015-01-03 05:52:55.977455"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Art Deco Glass"], ["description", "Before-the-City-Gate Acrylic-on-canvas"], ["price", 1599.0], ["thumburl", "http://ihomedecorsideas.com/wp-content/uploads/2014/04/diy_network_homemade_coat_rack_.jpg"], ["category_id", 11], ["created_at", "2015-01-03 05:52:55.980297"], ["updated_at", "2015-01-03 05:52:55.980297"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Rustic Homemade Coatrack"], ["description", "Coatrack made of Maple Tree Branches"], ["price", 288.0], ["thumburl", "https://c2.staticflickr.com/6/5308/5821079295_4580e3c8d3_z.jpg"], ["category_id", 11], ["created_at", "2015-01-03 05:52:55.983082"], ["updated_at", "2015-01-03 05:52:55.983082"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Forest Wood Coffee Table"], ["description", "Chista Natural Wood Rustic Collection"], ["price", 299.0], ["thumburl", "https://c1.staticflickr.com/3/2777/4033647409_3c04157d86.jpg"], ["category_id", 11], ["created_at", "2015-01-03 05:52:55.986199"], ["updated_at", "2015-01-03 05:52:55.986199"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Vintage Rhinestone Earrings"], ["description", "Lightweight Rhinestone Earrings in Sterling Silver Setting"], ["price", 9.0], ["thumburl", "http://fc03.deviantart.net/fs70/f/2011/340/0/5/dangle_ear_rings_stock_png_by_doloresdevelde-d4idyev.png"], ["category_id", 12], ["created_at", "2015-01-03 05:52:55.989089"], ["updated_at", "2015-01-03 05:52:55.989089"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Moon Turquoise Ring"], ["description", "Mediyat Silver"], ["price", 39.99], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/f/ff/Midyat_Silver_Jewelry_1310103_Nevit.jpg"], ["category_id", 12], ["created_at", "2015-01-03 05:52:55.991868"], ["updated_at", "2015-01-03 05:52:55.991868"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Greek Gold Necklace"], ["description", "Greek Gold Plated Necklace"], ["price", 4570.0], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/0/02/Ancient_greek_jewelry_Staatliche_Antikensammlungen_Room_10_06.jpg"], ["category_id", 12], ["created_at", "2015-01-03 05:52:55.994849"], ["updated_at", "2015-01-03 05:52:55.994849"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Chloe Frill Yellow Dress"], ["description", "Vintage yellow dress with floral design. Lightweight with frill on skirt."], ["price", 59.99], ["thumburl", "https://c1.staticflickr.com/9/8255/8660920433_57a184d9d1_z.jpg"], ["category_id", 13], ["created_at", "2015-01-03 05:52:55.997638"], ["updated_at", "2015-01-03 05:52:55.997638"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Autumn Knitted Sweater with Silver Buttons"], ["description", "Knitted Crop Sweater with Silver Buttons"], ["price", 45.99], ["thumburl", "https://c2.staticflickr.com/4/3049/2353463988_c9d8cde436_z.jpg?zz=1"], ["category_id", 13], ["created_at", "2015-01-03 05:52:56.000406"], ["updated_at", "2015-01-03 05:52:56.000406"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Rucksack"], ["description", "Rucksack Schweizer Armee 1960."], ["price", 39.99], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/a/a1/Image-2D_and_3D_modulor_Origami.jpg"], ["category_id", 13], ["created_at", "2015-01-03 05:52:56.003215"], ["updated_at", "2015-01-03 05:52:56.003215"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Grenson Shoes"], ["description", "Fullbrogue Grenson Shoes."], ["price", 105.0], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/d/d5/Fullbrogue_(Grenson).jpg"], ["category_id", 14], ["created_at", "2015-01-03 05:52:56.005964"], ["updated_at", "2015-01-03 05:52:56.005964"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Color Fringed Scarf"], ["description", "Men’s Fringed Scarf in Pumpkin Toffee Grey."], ["price", 19.99], ["thumburl", "https://c2.staticflickr.com/4/3437/3832752067_c6c3631d44_z.jpg?zz=1"], ["category_id", 14], ["created_at", "2015-01-03 05:52:56.008899"], ["updated_at", "2015-01-03 05:52:56.008899"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Pork Pie Hat"], ["description", "Classic Pork Pie Hat from the 1940s."], ["price", 110.0], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/0/05/Brown_Porkpie_Hat.JPG"], ["category_id", 14], ["created_at", "2015-01-03 05:52:56.011785"], ["updated_at", "2015-01-03 05:52:56.011785"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Peruvian Hats"], ["description", "Handmade Peruvian Winter Hats for Children."], ["price", 15.0], ["thumburl", "https://c2.staticflickr.com/8/7020/6498656815_3937483e21_z.jpg"], ["category_id", 15], ["created_at", "2015-01-03 05:52:56.015702"], ["updated_at", "2015-01-03 05:52:56.015702"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Norev Toy Car"], ["description", "Classic Norev Model Toy Car for Children"], ["price", 17.0], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/6/61/Norev_4cv.jpg"], ["category_id", 15], ["created_at", "2015-01-03 05:52:56.018681"], ["updated_at", "2015-01-03 05:52:56.018681"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Stickle Bricks"], ["description", "Toy Stickle Brick Building Blocks Set"], ["price", 21.99], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/f/f1/Stickle_bricks.jpg"], ["category_id", 15], ["created_at", "2015-01-03 05:52:56.021468"], ["updated_at", "2015-01-03 05:52:56.021468"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Anders Brown Leather Bag"], ["description", "Vintage Leather with White Trim."], ["price", 79.99], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/3/3d/Gesellenst%C3%BCck_Lederhandwerk.jpg"], ["category_id", 16], ["created_at", "2015-01-03 05:52:56.024251"], ["updated_at", "2015-01-03 05:52:56.024251"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Cambridge Red Footsies"], ["description", "Red Vintage Leather Shoes Children with Brown Laces and White Trim"], ["price", 45.99], ["thumburl", "https://c1.staticflickr.com/3/2587/3797274851_8199f17d01.jpg"], ["category_id", 16], ["created_at", "2015-01-03 05:52:56.027039"], ["updated_at", "2015-01-03 05:52:56.027039"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Voightlander Camera"], ["description", "Voightlander Vintage Camera with Metal Case"], ["price", 179.0], ["thumburl", "http://upload.wikimedia.org/wikipedia/commons/6/67/A_vintage_Voigtl%C3%A4nder_Vito_B_camera.jpg"], ["category_id", 16], ["created_at", "2015-01-03 05:52:56.031273"], ["updated_at", "2015-01-03 05:52:56.031273"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Green Wedding Decor"], ["description", "Forest Dream Wedding Decoration Ideas"], ["price", 27.0], ["thumburl", "http://hostingessence.com/wp-content/uploads/2012/04/green-wedding.jpg"], ["category_id", 17], ["created_at", "2015-01-03 05:52:56.034199"], ["updated_at", "2015-01-03 05:52:56.034199"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Embossed Soap Wedding Favors"], ["description", "Lavendar Handmade Soap decorated with elegant nature design. "], ["price", 4.5], ["thumburl", "https://c1.staticflickr.com/1/203/518233215_cb4d2af38f_z.jpg?zz=1"], ["category_id", 17], ["created_at", "2015-01-03 05:52:56.036972"], ["updated_at", "2015-01-03 05:52:56.036972"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Handmade Centerpieces"], ["description", "Handmade Wedding Tea Cup Centerpieces for Your Guests"], ["price", 35.0], ["thumburl", "http://indiefixx.com/wp-content/uploads/2011/06/GR_teacupcenterpieces.jpg"], ["category_id", 17], ["created_at", "2015-01-03 05:52:56.039666"], ["updated_at", "2015-01-03 05:52:56.039666"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Korean Indasong Craft Paper"], ["description", "Origami Paper Kit"], ["price", 17.0], ["thumburl", "http://commons.wikimedia.org/wiki/File:Vesta_sewing_machine_IMGP0718.jpg"], ["category_id", 18], ["created_at", "2015-01-03 05:52:56.042578"], ["updated_at", "2015-01-03 05:52:56.042578"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["product_name", "Handmade Gift Wrap"], ["description", "Esoterica Handmade Supplies"], ["price", 14.0], ["thumburl", "http://commons.wikimedia.org/wiki/File:Vesta_sewing_machine_IMGP0718.jpg"], ["category_id", 18], ["created_at", "2015-01-03 05:52:56.045270"], ["updated_at", "2015-01-03 05:52:56.045270"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "products" ("product_name", "description", "price", "thumburl", "category_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["product_name", "Lollipot Flavor Kit"], ["description", "Flavor Kit for Celebration Lollipops and Gifts"], ["price", 21.0], ["thumburl", "http://commons.wikimedia.org/wiki/File:Vesta_sewing_machine_IMGP0718.jpg"], ["category_id", 18], ["created_at", "2015-01-03 05:52:56.048035"], ["updated_at", "2015-01-03 05:52:56.048035"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
