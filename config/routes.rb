@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'categories/edit'
 
-  get 'categories/delete'
+  #get 'categories/delete'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -72,7 +72,7 @@ Rails.application.routes.draw do
     # get '/' => 'pages#home'
 
   resources :categories
-  #get 'categories/:id/delete' => 'categories#delete', :as => :categories_delete
+  get 'categories/:id/delete' => 'categories#delete', :as => :categories_delete
 
 
 end
